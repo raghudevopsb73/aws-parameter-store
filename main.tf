@@ -99,7 +99,7 @@ variable "params" {
     { name = "roboshop.prod.shipping.app_version", value = "1.0.0", type = "String" },
     { name = "roboshop.prod.cart.app_version", value = "1.0.1", type = "String" },
     { name = "roboshop.prod.user.app_version", value = "1.0.1", type = "String" },
-    { name = "roboshop.prod.catalogue.app_version", value = "1.0.1", type = "String" },
+    { name = "roboshop.prod.catalogue.app_version", value = "1.0.0", type = "String" },
     { name = "roboshop.prod.frontend.app_version", value = "1.0.1", type = "String" },
   ]
 }
