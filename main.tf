@@ -70,7 +70,7 @@ variable "params" {
     { name = "roboshop.prod.payment.user_port", value = "80", type = "String" },
     { name = "roboshop.prod.payment.amqp_host", value = "rabbitmq-prod.rdevopsb73.online", type = "String" },
     { name = "roboshop.prod.payment.amqp_user", value = "roboshop", type = "String" },
-    { name = "roboshop.prod.shipping.cart_endpoint", value = "cart-prod.rdevopsb73.online:80", type = "String" },
+    { name = "roboshop.prod.shipping.cart_endpoint", value = "cart:8080", type = "String" },
     { name = "roboshop.prod.shipping.db_host", value = "rds-prod.cluster-cbvsbeoyxek4.us-east-1.rds.amazonaws.com", type = "String" },
     { name = "roboshop.prod.user.mongo", value = "true", type = "String" },
     { name = "roboshop.prod.user.redis_host", value = "elasticache-prod-instance.nud0cy.0001.use1.cache.amazonaws.com", type = "String" },
